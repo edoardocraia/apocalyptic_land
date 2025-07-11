@@ -1,17 +1,11 @@
-# ================================
-# Unreal Engine - Blueprint Only
-# ================================
-
-# Ignore build artefacts and temp data
+# Unreal Engine essential ignores
 Saved/
 Intermediate/
 DerivedDataCache/
 Build/
-
-# Ignore binaries (non usati, ma per sicurezza)
 Binaries/
 
-# Ignore Visual Studio and Rider project files (optional)
+# IDE/editor garbage
 .vs/
 .vscode/
 .idea/
@@ -22,24 +16,32 @@ Binaries/
 *.VC.db
 *.VC.VC.opendb
 
-# Ignore macOS and Windows junk files
+# macOS & Windows trash
 .DS_Store
 Thumbs.db
 
-# Ignore backup and log files
+# Logs, temp, and backups
 *.log
 *.tmp
 *.bak
 
-# Ignore Movie Renders (specific folder)
+# Movie renders (opzionale)
 Saved/MovieRenders/
 
-# Ignore platform-specific packaged builds (optional)
+# Platform-specific cooked builds (non sorgente)
 LinuxNoEditor/
 WindowsNoEditor/
 MacNoEditor/
 Android/
 IOS/
+
+# AUTO-IGNORA .uasset solo se esplicitamente troppo grandi
+# (Non ignoriamo tutti .uasset! Quelli piccoli <100MB vanno bene)
+
+# ESEMPIO:
+# Content/CommonHazel/Textures/Impostor/Field/Field_01/T_Impostor_BaseColor_Field_01_Summer.uasset
+# ...
+
 
 *.uasset
 #FILE >100MB
