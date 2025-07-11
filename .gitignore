@@ -1,0 +1,49 @@
+# ================================
+# Unreal Engine - Blueprint Only
+# ================================
+
+# Ignore build artefacts and temp data
+Saved/
+Intermediate/
+DerivedDataCache/
+Build/
+
+# Ignore binaries (non usati, ma per sicurezza)
+Binaries/
+
+# Ignore Visual Studio and Rider project files (optional)
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore macOS and Windows junk files
+.DS_Store
+Thumbs.db
+
+# Ignore backup and log files
+*.log
+*.tmp
+*.bak
+
+# Ignore Movie Renders (specific folder)
+Saved/MovieRenders/
+
+# Ignore platform-specific packaged builds (optional)
+LinuxNoEditor/
+WindowsNoEditor/
+MacNoEditor/
+Android/
+IOS/
+
+*.uasset
+
+
+# ================================
+# End of .gitignore
+# ================================
